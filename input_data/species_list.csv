@@ -1,0 +1,97 @@
+short	colloquial name	scientific name	short scientific name	code	include	merge into	exclusuion reason	Family	Origin
+her	Atlantic herring	Clupea harengus	C. harengus	126417	X			Clupeidae	marine, cold
+spr	European sprat	Sprattus sprattus	S. sprattus	126425	X			Clupeidae	marine, cold
+stb	Threespine stickleback	Gasterosteus aculeatus	G. aculeatus	126505	X			Gasterosteidae	freshwater
+cod	Atlantic cod	Gadus morhua	G. morhua	126436	X			Gadidae	marine, cold
+stb9	Ninespine Stickleback	Pungitius pungitius	P. pungitius	126507	X			Gasterosteidae	freshwater
+lumpf	Lumpfish	Cyclopterus lumpus	C. lumpus	127214	X			Cyclopteridae	marine, cold
+whit	Whiting	Merlangius merlangus	M. merlangus	126438	X			Gadidae	marine, temperate
+ach	European anchovy	Engraulis encrasicolus	E. encrasicolus	126426	X			Engraulidae
+pom	Goby	Pomatoschistus	Pomatoschistus spp.	125999	X			Gobiidae
+makr	Atlantic horse mackerel	Trachurus trachurus	T. trachurus	126822	X			Carangidae	marine, temperate
+flo	European flounder	Platichthys flesus	P. flesus	127141	X			Pleuronectidae	marine, temperate
+X	Sand Goby 	Pomatoschistus minutus		126928		125999	merged	Gobiidae
+smelt	European smelt	Osmerus eperlanus	O. eperlanus	126736	X			Osmeridae	freshwater, cold
+dab	Common dab	Limanda limanda	L. limanda	127139	X			Pleuronectidae	marine, temperate
+tgoby	Transparent goby	Aphia minuta	A. minuta	126868	X			Gobiidae	marine, subtropical
+pip	Straightnose pipefish	Nerophis ophidion	N. ophidion	127385	X			Syngnathidae	temperate
+wee	Greater weever	Trachinus draco	T. draco	127082	X			Trachinidae	marine, temperate
+snail	Sea snail	Liparis liparis	L. liparis	127219	X			Liparidae	marine, cold
+X	Crystal goby	Crystallogobius linearis		126878		126868	merged	Gobiidae
+amakr	Atlantic mackerel	Scomber scombrus	S. scombrus	127023	X			Scombridae	marine, temperate
+eel	Great sand eel	Hyperoplus lanceolatus	H. lanceaolatus	126756	X			Ammodytidae	marine, temperate
+squid	Inshore squid	Loligo forbesii		140270			not a fish
+crab	Common crab	Crangon crangon		107552			not a fish
+pla	European plaice	Pleuronectes platessa	P. platessa	127143	X			Pleuronectidae	marine, temperate
+sal	Salmon	Salmo salar	S. salar	127186	X			Salmonidae	anadromous, cold
+csquid	Common squid	Loligo sp.		138139			not a fish
+eelpout	European eelpout	Zoarces viviparus	Z. viviparus	127123	X			Zoarcidae	marine, temperate
+gurnard	Grey gurnard	Eutrigla gurnardus	E. gurnardus	150637	X			Triglidae	marine, temperate
+rout	Shorthorn sculpin	Myoxocephalus scorpius	M. scorpius	127203	X			Cottidae	marine, polar
+garf	Garfish	Belone belone	B. belone	126375	X			Belonidae	marine, temperate
+lamprey	European river lamprey	Lampetra fluviatilis	L. fluviatilis	101172	X			Petromyzontidae	anadromous, temperate
+wrasse	Goldsinny wrasse	Ctenolabrus rupestris	C. rupestris	126964	X			Labridae	marine, temperate
+cuttlef	Common cuttlefish	Sepia 		138483			not a fish
+sard	European sardine	Sardina pilchardus	S. pilchardus	126421	X			Clupeidae	marine, temperate
+bgoby	Black goby	Gobius niger	G. niger	126892	X			Gobiidae	marine, temperate
+fangtooth	Common fangtooth	Anoplogaster cornuta	A. cornuta	127393	X			Anoplogastridae	marine, deep-water
+lse	Lesser sand eel 	Ammodytes tobianus	A. tobianus	126752	X			Ammodytidae	marine, temperate
+hake	European hake	Merluccius merluccius	M. merluccius	126484	X			Merlucciidae	marine, temperate
+turbot	Turbot	Scophthalmus maximus	S. maximus	127149	X			Scophthalmidae	marine, temperate
+X	Turbot	Scophthalmus maximus		154473		127149	merged
+rock	Fourbeard rockling	Enchelyopus cimbrius	E. cimbrius	126450	X			Lotidae	marine, temperate
+mullet	Striped red mullet	Mullus surmuletus	M. surmuletus	126986	X			Mullidae	marine, subtropical
+lsquid	Little squid	Alloteuthis		138138			not a fish
+107031	107031	107031		107031			not a fish
+106922	106922	106922		106922			not a fish
+scul	Fourhorn sculpin	Myoxocephalus quadricornis	M. quadricornis	254529	X			Cottidae
+snake	Snakeblenny	Lumpenus lampretaeformis	L. lampretaeformis	154675	X			Stichaeidae
+hook	Hooknose	Agonus cataphractus	A. cataphractus	127190	X			Agonidae	marine, cold
+trout	Brown trout	Salmo trutta	S. trutta	127187	X			Salomonidae	anadromous, cold
+shark	Mud shark	Squalus acanthias	S. acanthias	105923	X			Squalidae
+plaice	American plaice	Hippoglossoides platessoides	H. platessoides	127137	X			Pleuronectidae
+eeel	European eel	Anguilla anguilla	A. anguilla	126281	X			Anguillidae	catadromous, temperate
+rgoby	Round goby 	Neogobius melanostomus	N. melanostomus	126916	X			Gobiidae
+haddock	Haddock	Melanogrammus aeglefinus	M. aeglefinus	126437	X			Gadidae	marine, cold
+zand	Zander	Sander lucioperca	S. lucioperca	151308	X			Percidae	freshwater, warm
+X	Pollachius virens	Pollachius virens		126441			too few samples
+X	125516	125516		125516			too few samples
+X	153131	153131		153131			too few samples
+X	Syngnathus rostellatus	Syngnathus rostellatus		127389			too few samples
+X	Trisopterus minutus	Trisopterus minutus		126446			too few samples
+X	125909	125909		125909			too few samples
+X	Scophthalmus rhombus	Scophthalmus rhombus		127150			too few samples
+X	138267	138267		138267			too few samples
+X	Saduria entomon	Saduria entomon		119034			too few samples
+X	Hyperoplus immaculatus	Hyperoplus immaculatus		126755			too few samples
+X	126023	126023		126023			too few samples
+X	Spinachia spinachia	Spinachia spinachia		126508			too few samples
+X	Symphodus melops	Symphodus melops		127459			too few samples
+X	Pholis gunnellus	Pholis gunnellus		126996			too few samples
+X	Common Goby	Pomatoschistus microps		126927		125999	merged
+X	125575	125575		125575			too few samples
+X	107254	107254		107254			too few samples
+X	Coregonus lavaretus	Coregonus lavaretus		127180			too few samples
+X	Alosa fallax	Alosa fallax		126415			too few samples
+X	Pollachius pollachius	Pollachius pollachius		126440			too few samples
+X	125988	125988		125988			too few samples
+X	129840	129840		129840			too few samples
+X	Leptoclinus maculatus	Leptoclinus maculatus		127072			too few samples
+X	126227	126227		126227			too few samples
+X	Argentina sphyraena	Argentina sphyraena		126716			too few samples
+X	Rutilus rutilus	Rutilus rutilus		154333			too few samples
+X	Perca fluviatilis	Perca fluviatilis		151353			too few samples
+X	107276	107276		107276			too few samples
+X	Labrus bergylta	Labrus bergylta		126965			too few samples
+X	Coregonus albula	Coregonus albula		127178			too few samples
+X	Callionymus lyra	Callionymus lyra		126792			too few samples
+X	125464	125464		125464			too few samples
+X	273571	273571		273571			too few samples
+X	Trisopterus esmarkii	Trisopterus esmarkii		126444			too few samples
+X	125606	125606		125606			too few samples
+X	Syngnathus acus	Syngnathus acus		127387			too few samples
+X	107649	107649		107649			too few samples
+X	Entelurus aequoreus	Entelurus aequoreus		127379			too few samples
+X	Gymnocephalus cernua	Gymnocephalus cernua		405451			too few samples
+X	127126	127126		127126			too few samples
+X	234519	234519		234519			too few samples
