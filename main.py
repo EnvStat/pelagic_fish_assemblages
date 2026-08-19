@@ -1,3 +1,14 @@
+"""
+Main file
+
+Runs MCMC, fitting model to the data.
+Outputs results in to the "samples" folder
+
+For each species, the model is fitted independently, and the
+samples are saved into a subfolder with a suffix set a by an
+EXPERIMENT_NAME variable
+"""
+
 import os
 import datetime
 
@@ -9,9 +20,6 @@ import read_data
 
 from random import shuffle
 
-
-NAMES = read_data.DictOfUsedFish()
-SPECIES_LIST = list(NAMES)
 
 def run_MCMC_for_species(SPECIE, profiling=False):
 
@@ -41,7 +49,7 @@ def run_MCMC_for_species(SPECIE, profiling=False):
     print('#'*80)
 
     gen_MCMC.MCMC(
-        trial_name='samples/'+NUMBER+'_'+SPECIE.name,
+        trial_name='samples/'+EXPERIMENT_NAME+'_'+SPECIE.name,
         model_class=model.define_model(SPECIE),
         batches=MCMC_UPDATE_BATCHES,
         warmup=100_000,
@@ -50,16 +58,18 @@ def run_MCMC_for_species(SPECIE, profiling=False):
         verbosity=len(SPECIES_LIST) == 1  # print more info when working with one species
     )
 
-NUMBER = '5'
 
-rewrite = False
-
-shuffle(SPECIES_LIST)
-
+EXPERIMENT_NAME = '5_'
 
 if __name__ == '__main__':
+
+    NAMES = read_data.DictOfUsedFish()
+    SPECIES_LIST = list(NAMES)
+    rewrite = False
+    shuffle(SPECIES_LIST)
+
     for SPECIE in SPECIES_LIST:
-        if rewrite or not os.path.exists('samples/'+NUMBER+'_'+SPECIE.name+'/data_1.pik'):
+        if rewrite or not os.path.exists('samples/'+EXPERIMENT_NAME+'_'+SPECIE.name+'/data_1.pik'):
             run_MCMC_for_species(SPECIE)
         else:
             print(SPECIE, 'is done')

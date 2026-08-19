@@ -1,9 +1,13 @@
+"""
+This file contains the model description
+"""
+
 import numba
 
 from useful import dlmultivariate_norm_unnormalized, rnorm, logistic, logit
 
-from dec_mod import derived_quantity, prior, basic_transformation, likelihood_factor, ModelParameter, Indexer, Constant
-from dec_mod import Model2 as Model
+from probabilistic_programming.dec_mod import derived_quantity, prior, basic_transformation, likelihood_factor, ModelParameter, Indexer, Constant
+from probabilistic_programming.dec_mod import Model2 as Model
 from load_data import *
 
 from numpy import array, log, exp, mean, cos, pi, cumsum
@@ -185,11 +189,3 @@ if __name__ == '__main__':
     print(M.expected)
     print(M.Prior)
     print(M.Likelihood)
-    #print(M.predictive_map_function(data.loc[1]))
-
-
-    #import timeit
-    #expected_portions = M.expected_portions
-    #all_sd_2 = M.all_sd_2
-    #log_sd = M.log_sd
-    #timeit.timeit('- (DATA_VALS[0:3] - expected_portions)**2 / 2 / all_sd_2 - [log_sd]', globals=globals(), number=1000)
