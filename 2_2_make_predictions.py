@@ -1,3 +1,10 @@
+"""
+Step 2.2
+
+loads the samples, and produces the prediction map for a given resolution
+
+"""
+
 import resource
 
 import numpy
@@ -13,7 +20,7 @@ import read_data
 EN = '5'
 N = 100
 RESOLUTION = '5x5'
-#RESOLUTION = '3x3'
+RESOLUTION = '3x3'
 #RESOLUTION = '1x1'
 
 

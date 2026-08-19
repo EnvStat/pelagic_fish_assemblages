@@ -1,8 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
+"""
+Sptep 3.2
 
-# In[1]:
+Estimate Variance partition of the parameters
 
+"""
 
 import resource
 
