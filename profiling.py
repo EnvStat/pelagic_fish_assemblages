@@ -1,4 +1,4 @@
-if 1:  # standard profiling
+if 0:  # standard profiling
 
     from main import run_MCMC_for_species as MCMC
     import cProfile as prf
@@ -27,7 +27,7 @@ else:  # self-made profiling for model components
     from datetime import datetime
     #import prob_prog
     #prob_prog._PROFILING = True
-    import dec_mod
+    from probabilistic_programming import dec_mod
     dec_mod._PROFILING = True
 
     from main import run_MCMC_for_species as MCMC
