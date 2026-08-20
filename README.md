@@ -25,3 +25,12 @@ Alternatively, one can upload the data files from https://doi.org/10.5281/zenodo
 
 
 Some other scripts are used for supportive functions / visualisation
+
+
+dependencies:
+* python 3.10.12
+* numpy 1.26.4
+* scipy 1.15.3
+* pandas 2.3.0
+* PIL 9.0.1
+* geopy 2.2.0
