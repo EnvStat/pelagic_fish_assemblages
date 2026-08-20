@@ -1,7 +1,8 @@
 This repository presents the code for the manuscript
 
 Community-level modelling of pelagic fish assemblages in the Baltic Sea reveals temporal shifts and effects of environmental drivers
-DOI: 10.1093/icesjms/fsag166
+
+Manuscript DOI:  https://doi.org/10.1093/icesjms/fsag166
 
 Links for the larger data files:
 https://doi.org/10.5281/zenodo.22027768
